@@ -1,6 +1,5 @@
 # dados manipulado por pandas
 # acesso a base de dados por sqlite
-# testando o git
 
 import pandas as pd
 import sqlite3 as bd
@@ -46,16 +45,13 @@ pr_trvsl_10 = 1
 ps_trvsl_10 = 1
 
 
-pr_trvsl = (
+pr_trvsl = ((
              pr_trvsl_01 * ps_trvsl_01 + pr_trvsl_02 * ps_trvsl_02 + pr_trvsl_03 * ps_trvsl_03 +
              pr_trvsl_04 * ps_trvsl_04 + pr_trvsl_05 * ps_trvsl_05 + pr_trvsl_06 * ps_trvsl_06 +
              pr_trvsl_07 * ps_trvsl_07 + pr_trvsl_08 * ps_trvsl_08 + pr_trvsl_09 * ps_trvsl_09 +
-             pr_trvsl_10 * ps_trvsl_10
-            )
-                /
-           (
+             pr_trvsl_10 * ps_trvsl_10) /
+            (
              ps_trvsl_01 + ps_trvsl_02 + ps_trvsl_03 + ps_trvsl_04 + ps_trvsl_05 +
-             ps_trvsl_06 + ps_trvsl_07 + ps_trvsl_08 + ps_trvsl_09 + ps_trvsl_10
-           )
+             ps_trvsl_06 + ps_trvsl_07 + ps_trvsl_08 + ps_trvsl_09 + ps_trvsl_10))
 
 # salvar os resultados
