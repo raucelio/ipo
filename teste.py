@@ -43,7 +43,7 @@ ps_trvsl_08 = 1
 pr_trvsl_09 = 1
 ps_trvsl_09 = 1
 pr_trvsl_10 = 1
-ps_trvsl_10 = 1
+ps_trvsl_10 = 10
 
 
 pr_trvsl = (
