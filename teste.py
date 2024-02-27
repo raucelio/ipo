@@ -43,7 +43,7 @@ ps_trvsl_08 = 1
 pr_trvsl_09 = 1
 ps_trvsl_09 = 1
 pr_trvsl_10 = 1
-ps_trvsl_10 = 10
+ps_trvsl_10 = 1
 
 
 pr_trvsl = (
@@ -57,3 +57,5 @@ pr_trvsl = (
              ps_trvsl_01 + ps_trvsl_02 + ps_trvsl_03 + ps_trvsl_04 + ps_trvsl_05 +
              ps_trvsl_06 + ps_trvsl_07 + ps_trvsl_08 + ps_trvsl_09 + ps_trvsl_10
            )
+
+# salvar os resultados
