@@ -6,9 +6,9 @@ from pandas import DataFrame
 
 # lendo as quantidades brutas
 
-df_dado_bruto = pd.read_excel('dados_brutos.xlsx', sheet='qtd',  engine='openpyxl', index_col=0)
+df_dado_bruto = pd.read_excel('dados_brutos.xlsx', sheet_name=0,  engine='openpyxl', index_col=0)
 
-f_dado_bruto_peso = pd.read_excel('dados_brutos.xlsx', sheet='peso',  engine='openpyxl', index_col=0)
+f_dado_bruto_peso = pd.read_excel('dados_brutos.xlsx', sheet_name=1,  engine='openpyxl', index_col=0)
 
 df_dado_padronizado = df_dado_bruto.apply(lambda x: x / x.sum() * 100, axis=0)
 
